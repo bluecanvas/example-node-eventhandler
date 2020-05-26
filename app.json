@@ -1,0 +1,24 @@
+{
+  "addons": [
+    "heroku-redis"
+  ],
+  "env": {
+    "BLUECANVAS_TENANT_ID": {
+      "description": "Your Blue Canvas tenant ID"
+    },
+    "BLUECANVAS_CLIENT_ID": {
+      "description": "Your API client credentials. Generate new credentials in Account Settings on Blue Canvas."
+    },
+    "BLUECANVAS_CLIENT_SECRET": {
+      "description": "Your API client secret."
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    },
+    "worker": {
+      "quantity": 1
+    }
+  }
+}

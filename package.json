@@ -1,0 +1,24 @@
+{
+  "name": "example-node-eventhandler",
+  "version": "1.0.0",
+  "description": "A simple example of how to handle Blue Canvas event notifications in Node.js on Heroku",
+  "author": "https://bluecanvas.io",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "start": "nf start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluecanvas/example-node-eventhandler.git"
+  },
+  "dependencies": {
+    "@bluecanvas/sdk": "^1.1.2",
+    "@hapi/hapi": "^19.1.1",
+    "bull": "^3.14.0",
+    "foreman": "^3.0.1",
+    "throng": "^4.0.0"
+  },
+  "license": "MIT"
+}
