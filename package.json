@@ -14,7 +14,7 @@
     "url": "git+https://github.com/bluecanvas/example-node-eventhandler.git"
   },
   "dependencies": {
-    "@bluecanvas/sdk": "^1.1.2",
+    "@bluecanvas/sdk": "^1.1.3",
     "@hapi/hapi": "^19.1.1",
     "bull": "^3.14.0",
     "foreman": "^3.0.1",

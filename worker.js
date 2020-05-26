@@ -64,7 +64,7 @@ function start() {
         state: 'IN_PROGRESS',
         description: `${progress}%`,
       });
-      await sleep(1000);
+      await sleep(5000);
       progress += 10;
     }
 
@@ -73,7 +73,7 @@ function start() {
       await putCheck(message, {
         state: 'DONE',
         result: 'FAILURE',
-        description: `Something didn't go right. Well, that was unexpected!`,
+        description: `Well, that was unexpected! In this demo, we fail 25% of the time.`,
       });
     } else {
       // Mark the check as successful
